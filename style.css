@@ -1,0 +1,163 @@
+header {
+    background-color: cyan;
+    padding: 10px;
+}
+
+.container1 {
+    background-color: darkgoldenrod;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px dashed black;
+    display: flex;
+}
+
+.logo,
+.login {
+    flex: 1;
+
+    padding: 10px;
+    border: 1px dashed black;
+    width: calc((100% / 5));
+}
+
+.logo {
+    text-align: left;
+}
+
+.login {
+    text-align: right;
+}
+
+
+.link {
+    width: 60%;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    background-color: darkblue;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container3 {
+    background-color: rgb(250, 101, 238);
+    height: 200px;
+    width: 40%;
+    display: flex;
+    border: 2px dashed black;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.sfondoBianco {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100%;
+    height: 20rem;
+}
+
+.sfondoGrigio {
+    background-color: rgb(143, 143, 143);
+    padding: 10px;
+    width: 100%;
+    height: 20rem;
+}
+
+.containerBlu-Rosa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 80%;
+
+}
+
+.Rosa {
+    background-color: pink;
+    width: 33%;
+    height: 80%;
+    border: 1px dashed black;
+}
+
+.Blu {
+    background-color: blue;
+    width: 67%;
+    border: 2px dashed black;
+    height: 80%;
+}
+
+.containerVerde {
+    height: 90%;
+    display: flex;
+    padding: 10px;
+    border-style: 2px dashed black;
+    width: 80%;
+    background-color: green;
+    margin-left: 10%;
+
+}
+
+.sfondoNero {
+    background-color: rgb(26, 26, 26);
+    padding: 10px;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cointaner-rosso-verdex4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    height: 60%;
+}
+
+.rosso {
+    background-color: red;
+    width: 40%;
+    height: 100%;
+    border: 1px dashed black;
+}
+
+.verdone {
+    background-color: green;
+    width: 15%;
+    border: 1px dashed white;
+    height: 100%;
+}
+
+.cointaner-green {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 20%;
+    width: 80%;
+}
+
+.logo2 {
+    width: 100px;
+    background-color: rgb(255, 0, 21);
+    padding: 10px;
+    border: 1px dashed black;
+}
+
+.bottone {
+    width: 100px;
+    background-color: rgb(255, 0, 64);
+    padding: 10px;
+    border: 1px dashed black;
+}
